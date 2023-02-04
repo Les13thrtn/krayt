@@ -14,10 +14,12 @@
       margin-top: 1.8rem;
     }
     &_left {
+      width: 35%;
       margin-left: 0.2rem;
     }
 
     &_right {
+      width: 25%;
       margin-right: 0.3rem;
     }
 
@@ -95,6 +97,7 @@
   }
 
   &__logo {
+    width: 21.3%;
     margin-right: 3.2rem;
     &_top {
       margin-bottom: 0.6rem;
@@ -313,6 +316,7 @@
     &__top {
       &_left,
       &_right {
+        width: auto;
         display: flex;
         align-items: center;
         margin-top: 0rem;
@@ -351,6 +355,7 @@
     }
 
     &__logo {
+      width: 50%;
       margin-right: 0rem;
       &_top {
         margin-bottom: 0rem;
