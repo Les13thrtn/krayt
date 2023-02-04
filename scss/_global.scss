@@ -236,28 +236,10 @@ section {
     line-height: 110%;
   }
 
-  .btn {
-    height: 5.5rem;
-    padding: 2rem 5.6rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #303030;
-
-    transition: 0.4s;
-
-    &:hover {
-      background: #505050;
-    }
-
-    &:focus {
-      background: #000000;
+  .swiper-pagination {
+    &-bullet {
+      width: 1.2rem;
+      height: 1.2rem;
     }
   }
 }
